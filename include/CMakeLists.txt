@@ -1,0 +1,5 @@
+﻿target_include_directories (oop2_ex04 PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+add_subdirectory(buildlevel)
+add_subdirectory(controller)
+add_subdirectory(pipes)
+add_subdirectory(singleton)
